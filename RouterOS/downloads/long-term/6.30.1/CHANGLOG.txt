@@ -1,0 +1,9 @@
+What's new in 6.30.1 (2015-Jul-14 11:22):
+
+*) quickset - fixed HomeAP mode;
+*) lte - Fixes bug that causes Sierra Wireless modems with LTE interface to change interface name;
+*) trafflow: fix in-interface reporting in flow;
+*) ipsec - disallow changing dynamic peer;
+*) quickset - crashes introduced in 6.30 fixed
+*) fixed :execute file=
+*) bonding: fix arp monitoring in active backup mode
