@@ -1,0 +1,17 @@
+What's new in 6.30.2 (2015-Jul-22 11:17):
+
+*) pptp & l2tp - fixed problem where android client could not connect if
+both dns names were not provided (was broken since v6.30);
+*) lcd - fix crash (and 100% cpu usage) when interface gets removed from "stats-all" screen
+*) tool fetch - fix incomplete ftp download
+*) ipsec - fixed crash in when gcm encryption was used
+*) certificate manager - fixed memory leak
+*) traffic flow - fixed dynamic input/output interface reporting
+*) user-manager - fixed username was not shown in /tool user-manager user
+*) user-manager - fixed zoom for user-manager homepage when mobile devices used
+*) winbox - restrict reversed ranges in dst-port under firewall
+*) snmp - fix system scripts table
+*) quickset - fixed HomeAP mode
+
+known issue:
+*) Dynamic DNS servers can disappear when "allow-remote-requests" are not enabled
